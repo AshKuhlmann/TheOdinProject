@@ -1,0 +1,44 @@
+h1 {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    color: #EEEEEE;
+    background-color: #548CA8;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    color: #EEEEEE;
+    background-color: #548CA8;
+}
+
+.recipe1 {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    color: #EEEEEE;
+    background-color: #334257;
+}
+
+.recipe2 {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    color: #EEEEEE;
+    background-color: #334257;
+}
+
+.recipe3 {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    color: #EEEEEE;
+    background-color: #334257;
+}
+
+a {
+    color: #EEEEEE;
+}
