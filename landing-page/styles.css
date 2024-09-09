@@ -1,17 +1,27 @@
+.section-1 {
+    background: #1F2937;
+}
+
 .flex-container {
     display: flex;
-
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .flex-container header {
-    background: #1F2937;
-    min-width: 400px;
+    
 }
 
 .header-logo {
-    justify-content: flex-start;
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-link {
-    justify-content: center;
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB; 
+    font-weight: lighter;
 }
