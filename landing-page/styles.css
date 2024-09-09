@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container header {
+    background: #1F2937;
+    min-width: 400px;
+}
+
+.header-logo {
+    justify-content: flex-start;
+}
+
+.header-link {
+    justify-content: center;
+}
