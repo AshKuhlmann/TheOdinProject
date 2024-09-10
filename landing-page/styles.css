@@ -44,4 +44,45 @@
     display: flex;
 }
 
+.textbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.textbox-container h1 {
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 48px;
+    color: #FAF9F8;  
+    font-weight: 900;
+}
+
+.textbox-container p {
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;  
+}
+
+button {
+    /* button skeleton: courtesy of https://getcssscan.com/css-buttons-examples */
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-width: 0;
+    color:  #E5E7EB;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
