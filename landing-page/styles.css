@@ -2,26 +2,32 @@
     background: #1F2937;
 }
 
-.flex-container {
-    display: flex;
+.menu-container {
     margin-left: 100px;
     margin-right: 100px;
-}
-
-.flex-container header {
-    
+    height: 100px; /* To make the container larger than just the height of the text */
+    display: flex;
+    justify-content: space-between; /* Maximizes space between the two flex items, the header and the links */
 }
 
 .header-logo {
     font-family: 'Roboto', "Arial", sans-serif;
+    display: flex;
+    align-items: center;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
-.header-link {
+.links {
+    display: flex;
+    align-items: center; 
     font-family: 'Roboto', "Arial", sans-serif;
     font-size: 18px;
     color: #E5E7EB; 
     font-weight: lighter;
+}
+
+.header-link {
+    margin-left: 20px;
 }
