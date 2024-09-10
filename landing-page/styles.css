@@ -101,6 +101,12 @@ button {
 
 .top-textbox {
     text-align: center;
+    padding-bottom: 50px;
+    /* Text styling */
+    font-family: 'Roboto', "Arial", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900; 
 }
 
 .flex-container-3 {
@@ -110,4 +116,17 @@ button {
 
 .box {
     margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Roboto', "Arial", sans-serif;
+}
+
+.rounded-box {
+    /* Rounded boxes courtesy of: https://www.w3schools.com/css/css3_borders.asp */
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 125px; 
 }
