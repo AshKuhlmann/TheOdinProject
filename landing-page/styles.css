@@ -4,8 +4,8 @@
 }
 
 .flex-container-1 {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     height: 100px; /* To make the container larger than just the height of the text */
     display: flex;
     justify-content: space-between; /* Maximizes space between the two flex items, the header and the links */
@@ -39,18 +39,22 @@
 }
 
 .flex-container-2 {
-    margin-left: 100px;
-    margin-right: 100px; 
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .textbox-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    width: 500px;
 }
 
-.textbox-container h1 {
+.textbox-container .big-title {
     font-family: 'Roboto', "Arial", sans-serif;
     font-size: 48px;
     color: #FAF9F8;  
