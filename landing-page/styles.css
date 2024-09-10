@@ -90,3 +90,24 @@ button {
     -webkit-user-select: none;
     touch-action: manipulation;
 }
+
+/* Section 3 CSS Solutions */
+.section-3 {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.top-textbox {
+    text-align: center;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin-left: 20px;
+}
