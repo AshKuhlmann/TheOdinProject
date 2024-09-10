@@ -84,7 +84,7 @@ button {
     line-height: 20px;
     list-style: none;
     margin: 0;
-    padding: 10px 12px;
+    padding: 10px 25px;
     text-align: center;
     transition: all 200ms;
     vertical-align: baseline;
@@ -115,7 +115,7 @@ button {
 .flex-container-3 {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .box {
