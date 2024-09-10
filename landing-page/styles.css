@@ -1,8 +1,9 @@
+/* Section 1 CSS Solutions */
 .section-1 {
     background: #1F2937;
 }
 
-.menu-container {
+.flex-container-1 {
     margin-left: 100px;
     margin-right: 100px;
     height: 100px; /* To make the container larger than just the height of the text */
@@ -31,3 +32,16 @@
 .header-link {
     margin-left: 20px;
 }
+
+/* Section 2 CSS Solutions */
+.section-2 {
+    background: #1F2937; 
+}
+
+.flex-container-2 {
+    margin-left: 100px;
+    margin-right: 100px; 
+    display: flex;
+}
+
+
